@@ -1,0 +1,38 @@
+# ---------------- 密钥与本地配置（最重要，绝不能提交） ----------------
+.env
+.env.local
+*.key
+
+# ---------------- Python 虚拟环境与缓存 ----------------
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+pip-wheel-metadata/
+.pioptmp/
+.piptmp/
+
+# ---------------- 模型缓存（体积大，运行时自动下载） ----------------
+.model_cache/
+*.safetensors
+*.bin
+*.onnx
+
+# ---------------- IDE / 编辑器 ----------------
+.idea/
+.vscode/
+*.iml
+*.swp
+*~
+
+# ---------------- 运行输出与临时文件 ----------------
+# 实验结果明细（可保留；若不想公开，取消下面注释）
+# results_*.json
+# 中间产物
+*.log
+*.tmp
+tmp/
+temp/

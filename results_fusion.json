@@ -1,0 +1,44 @@
+[
+  {
+    "strategy": "vector（纯向量）",
+    "recall@1": 0.9,
+    "recall@3": 1.0,
+    "abstain_rate": 1.0
+  },
+  {
+    "strategy": "RRF（k=60，原实现）",
+    "recall@1": 0.7667,
+    "recall@3": 0.8667,
+    "abstain_rate": 1.0
+  },
+  {
+    "strategy": "RRF + 候选池各前5",
+    "recall@1": 0.8,
+    "recall@3": 0.9667,
+    "abstain_rate": 1.0
+  },
+  {
+    "strategy": "加权融合 w=0.8（向量为主）",
+    "recall@1": 0.8667,
+    "recall@3": 1.0,
+    "abstain_rate": 1.0
+  },
+  {
+    "strategy": "加权融合 w=0.5（等权）",
+    "recall@1": 0.7333,
+    "recall@3": 0.9333,
+    "abstain_rate": 1.0
+  },
+  {
+    "strategy": "并集按向量排序（各前5）",
+    "recall@1": 0.9,
+    "recall@3": 1.0,
+    "abstain_rate": 1.0
+  },
+  {
+    "strategy": "并集按向量排序（各前10）",
+    "recall@1": 0.9,
+    "recall@3": 1.0,
+    "abstain_rate": 1.0
+  }
+]

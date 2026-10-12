@@ -1,0 +1,7 @@
+# 依赖版本说明：Python 3.10+（本实验在 Python 3.14 上验证通过）
+openai>=1.0                 # DeepSeek 使用 OpenAI 兼容接口
+sentence-transformers>=2.2  # 向量化（BGE）与交叉编码器重排序
+rank-bm25>=0.2.2            # BM25 稀疏检索
+jieba>=0.42                 # 中文分词
+numpy>=1.24                 # 向量运算
+python-dotenv>=1.0          # 读取 .env 配置
